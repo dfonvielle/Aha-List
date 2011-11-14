@@ -1,4 +1,6 @@
 AhaList::Application.routes.draw do
+  resources :users
+
   resources :items
 
   resources :lists
